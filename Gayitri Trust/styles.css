@@ -1,0 +1,140 @@
+/* ========== Global styles ========== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* ========== Header & navigation ========== */
+header {
+  background: #bf360c; /* deep saffron-like color */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 5px 0 0 0;
+}
+
+nav {
+  background: #e64a19;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ========== Layout containers ========== */
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* ========== Headings ========== */
+h2 {
+  color: #bf360c;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+/* ========== Grid / columns ========== */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.col {
+  flex: 1;
+  min-width: 250px;
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 15px;
+  background: #fafafa;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #424242;
+}
+
+/* ========== Mantra box (used on home) ========== */
+.mantra-box {
+  border: 1px solid #e0e0e0;
+  background: #fffbe6;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.mantra-box h3 {
+  margin-top: 0;
+}
+
+/* ========== Button ========== */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #bf360c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #a3300a;
+}
+
+/* ========== Footer ========== */
+footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 13px;
+  background: #eeeeee;
+  margin-top: 20px;
+}
+
+/* ========== Image helpers ========== */
+/* Use this on <img> where you want a full-width banner */
+.banner-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Use this for small square-ish images (e.g., deity photo, logo) */
+.center-image {
+  display: block;
+  margin: 10px auto;
+  max-width: 200px;
+  height: auto;
+}
